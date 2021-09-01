@@ -25,3 +25,5 @@ For instance, for the provided tree the output would be:
     depth 2: 2 x (1 + 2 + 5 + 4 + 5);
     
     total: 40
+
+Feel free to define any number of additional methods/classes you deem necessary. Code clarity is just as important as the result!
