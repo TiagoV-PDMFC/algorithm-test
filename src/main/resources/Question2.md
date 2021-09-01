@@ -3,8 +3,10 @@ Consider a tree like structure as follows:
 ![Tree Structure](TreeSchema.png?raw=true "Title")
 
 Each Node has a value property, and a children property:
- - The value property is a string and is represented inside the node;
- - the children property is an array holding references to the children nodes;
+- The value property is an integer and is represented inside the node;
+- the children property is an array holding references to the children nodes;
+- Nodes can have any number of children (or none);
+- all property values are final and defined in the constructor
  - This means that for the example structure:
    - Node 1 would be represented by: {value: 1, children: [Node2, Node3]};
    - Node 2 would be represented by: {value: 2, children: [Node4, Node5, Node6]};
